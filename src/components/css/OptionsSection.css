@@ -1,0 +1,28 @@
+.FilerSection {
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.dropdown-filter {
+  width: 18% !important;
+  min-width: 150px !important;
+}
+
+
+.SearchSection {
+  /* margin: 50px; */
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 900px) {
+  .dropdown-filter {
+    width: 90% !important;
+    margin-top: 10px;
+  }
+}
